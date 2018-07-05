@@ -34,6 +34,5 @@ class listener(StreamListener):
     def on_error(self, status):
         print(status)
 
-
 twitter_stream = Stream(auth, listener())
 twitter_stream.filter(languages=["en"], track=["#MUFC"])

@@ -4,10 +4,11 @@ from tweepy import OAuthHandler
 from tweepy import StreamListener
 import time
 
-twitter_key = 'J8cChKHci7VVv1OlcRpAUIiJS'
-twitter_secret = 'iae1PqOGHNHl0BHpeAKY0XjkJWPgQWn6jN0Ve1xYI1MpbV6l1D'
-twitter_token = '937323236529983488-ZUBip2AtNIU5IpKsXj2twEi4maLLZxA'
-twitter_token_secret = '1J2wwf0341G7SRAnIynJe87H1gabPEdpc6LxgaFcRFEKm'
+# Insert Twitter key and secret into here
+twitter_key = ''
+twitter_secret = ''
+twitter_token = ''
+twitter_token_secret = ''
 
 auth = tweepy.OAuthHandler(twitter_key, twitter_secret)
 auth.set_access_token(twitter_token, twitter_token_secret)
